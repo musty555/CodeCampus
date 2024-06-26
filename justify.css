@@ -1,0 +1,15 @@
+.container{
+    width: 610px;
+    border: 1px solid red;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    flex-flow: column wrap;
+    HEIGHT: 600px;
+}
+
+[class^="flex-item"]{
+    width: 150px;
+    border: 1px solid black;
+    height: 100px;
+}

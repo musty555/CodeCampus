@@ -1,0 +1,26 @@
+.parent-container{
+    width: 80%;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+
+.items{
+    width: 30%;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-block: 20px;
+}
+
+.container{
+    display: flex;
+}
+
+.order4{
+    order: -1;
+}

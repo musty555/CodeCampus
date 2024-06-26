@@ -1,0 +1,85 @@
+/* using the tag name for simple selctor */
+
+body{
+    
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnBwnjyjHtIzA9FyfOzs5dcCv_IYX22T1qEyzwWKCBMWRdAQ_bR1DeysacLJxQZsFdzEi83lTDruMweKAcjbPS9G_FRHaG8-WEPk1x8S5YWSLOPQn78dfsg-v3Q3pt1KO2GPgUIOe67EKlvojhIOt_wQFF1nHva0_imOzJjapYGGh7HvYAQJ8rfEp8/s1295/tems3.jpg); background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 400px;
+}
+
+h1{
+    color: red;
+    text-decoration: line-through;
+  
+   
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-left: 200px;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    
+}
+
+/* using the class name for simple selector */
+
+.sass{
+    color: brown;
+    font-size: 24px;
+}
+
+#aj3{
+    background-color: blue;
+}
+
+.ajax,.sass,div{
+    
+    
+}
+
+.color1,.color2,.color3,.color4{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+
+.color1{
+    background-color: rgba(148, 81, 148, 0.684);
+}
+
+.color2{
+    background-color: rgb(233, 123, 56);
+}
+
+.color3{
+    background-color: #D0D3D4 ;
+}
+
+.height{
+    border: 1px solid red;
+    width: 511px;
+    
+    margin: auto;
+    text-align: justify;
+    text-align-last: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.name{
+    text-transform: capitalize;
+}
+
+.indent{
+    text-indent: 30px;
+    word-spacing: 10px;
+    line-height: 30px;
+}
+
+h3{
+    letter-spacing:5px ;
+    text-shadow: 2px 4px 10px rgb(52, 149, 14), 2px 2px 2px rgb(89, 89, 10)
+    
+}

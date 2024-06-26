@@ -1,0 +1,31 @@
+.grid-container{
+    display: inline-grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    gap: 20px;
+    justify-content: right;
+    grid-auto-rows: 200px;
+    grid-auto-columns: 200px;
+    grid-auto-flow: column;
+    /* float:right; */
+    /* padding-right: 40%; */
+    /* align-items: center; */
+
+}
+
+[class^="grid-item"]{
+    outline: 2px dashed black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item1{
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.grid-item4{
+    grid-row: 1;
+    grid-column: 2;
+}

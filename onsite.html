@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+        label{
+            display: block;
+        
+
+
+        }
+
+        body{
+            color: white;
+            position: ;
+            right: 50%;
+            left: 50%;
+
+            background:url(https://www.ishn.com/ext/resources/hi-vis-supply-construction-site.jpg?1617734295) no-repeat;
+
+            background-size: cover;
+            color: #fff;
+
+            
+            margin-right: auto;
+            
+            
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        input{
+            width: 50%;
+            background-color:gray;
+            padding: 10px 10px;
+
+        
+        }
+
+        input[type=submit] {
+            background-color: rgb(255, 136, 0);
+            width: 5%;
+            position: static;
+
+        }
+
+    
+
+    </style>
+
+  
+
+
+
+</head>
+<body style="background-color: rgb(29, 9, 100);">
+    
+    <h1>On-site Inquires</h1>
+
+    <form action="">
+        <label for="name"><strong>Name *</strong></label><br>
+        <input type="text" name="name" id="name"><br><br>
+    
+        <label for=location><strong>Where are you?*</strong></label><br>
+        <input type="text" name="location" id="location"><br>
+        <label for="location"><small>Street address</small></label><br>
+    
+        <input type="text" name="addressLine" id="addressLine"><br>
+        <label for="addressLine"><small>Address Line 2</small></label><br>
+    
+        <div style="float: left; width: 25%;"> 
+    
+         <input type="text" name="city" id="city"><br>     
+         <label for="city"><small>City</small></label><br>         
+    
+        </div> 
+        
+        
+        <input type="text" name="region" id="region" style="width: 25%;"><br>
+        <label for="region"><small>State/Region/Province</small> </label><br>
+
+        <div style="float: left; width: 25%;">
+           <input type="text" name="code" id="code"><br>
+           <label for="code"><small>Postal/Zip Code</small></label><br>
+        
+        </div>
+
+
+         <input type="text" name="country" id="country" style="width: 25%;"><br>
+         <label for="country"><small>Country</small></label><br>
+
+         <br> <br><br>
+
+         <label for="progress"> <strong>What is the Progress Status*</strong></label><br>
+         <input type="range" name="progress" id="progress"><br><br>
+         
+
+         <label for="materials"><strong>Do you need more material?*</strong></label><br>
+
+         <input type="radio" name="option" id="Yes"> <LAbel>Yes</LAbel><br>
+         <input type="radio" name="option" id="No"> <label for="option">No</label><br><br>
+
+         <label for="need"><strong>What more do you need?*</strong> </label><br>
+
+         <input type="checkbox" name="need" id="sand"><label for="need">Sand</label><br>
+         <input type="checkbox" name="need" id="bricks"><label for="need">Bricks</label><br>
+         <input type="checkbox" name="need" id="rods"><label for="need">Rods</label><br>
+         <input type="checkbox" name="need" id="other"><label for="need">Other</label><br><br>
+
+         <label for="comment"> <strong>Any other comments?*</strong></label><br>
+         <textarea name="comment" id="comment"></textarea><br><br>
+
+
+         <input type="submit" value="Submit">
+
+
+
+
+
+
+
+
+
+
+       
+        
+    </form>
+</body>
+</html>
+

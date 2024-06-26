@@ -1,0 +1,56 @@
+ul{
+    list-style: none;
+    background-color: brown;
+    
+}
+
+li{
+    display: inline-block;
+    margin-right: 55px;
+    color: aliceblue;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.p1{
+    font-family: "Gwendolyn", cursive;
+    font-size: 30px;
+        font-weight: 600;
+}
+
+.p2{
+    font-family: "Montserrat", sans-serif;
+}
+
+span,a{
+    border: 1px solid red;
+    height: 100px;
+    display: inline-block;
+
+}
+
+span,a{
+    display: block;
+}
+
+
+
+.width{
+    width: 700px;
+    border: 1px solid red;
+    background-color: aqua;
+}
+
+.max-width{
+    max-width: 700px;
+    border: 1px solid red;
+    background-color: rgb(51, 0, 255);
+}
+
+.min-width{
+    min-width: 700px;
+    border: 1px solid red;
+    background-color: rgb(0, 255, 60);
+}
